@@ -20,5 +20,16 @@
     <?php
       basic();
     ?>
+    <h2>parameter &amp; argument</h2>
+    <?php
+      function sum($left, $right){
+        print("$left + $right = ");
+        print($left+$right);
+        print("<br>");
+      }
+      sum(2,4);
+      sum(6,8);
+      sum(15,54);
+    ?>
   </body>
 </html>
